@@ -22,10 +22,10 @@ public class Record {
     @JsonIgnore
     private Reader reader;
 
-    @Column(name = "borrowDate")
+    @Column(name = "borrow_date")
     private String borrowDate;
 
-    @Column(name = "returnDate")
+    @Column(name = "return_date")
     private String returnDate;
 
     public Record(Long id, Book book, Reader reader, String borrowDate, String returnDate) {
